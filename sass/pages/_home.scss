@@ -1,0 +1,13 @@
+svg {
+    width: 80px;
+}
+
+@media screen and (max-width: 756px) {
+    model-viewer{
+        display: none;
+    }
+    #poster-con {
+        background: no-repeat url(/images/poster.webp);
+        height: 500px;
+    }
+}
