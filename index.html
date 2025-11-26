@@ -14,6 +14,7 @@
   <body>
     <div class="grid-con">
       <div class="col-span-full">
+        <div id="poster-con"></div>
         <model-viewer id="model" src="model/earbuds.gltf" camera-controls poster="images/poster.webp" shadow-intensity="1" environment-image="images/aircraft_workshop_01_1k.hdr" exposure="1.7" camera-orbit="52.34deg 88.29deg 874.8m" field-of-view="30deg">
 
           <button class="Hotspot" slot="hotspot-1" data-position="22.114881038306805m 76.41863141465969m 92.72411936367459m" data-normal="0m 3.422854333301474e-8m 0.9999999999999996m" data-visibility-attribute="visible">
@@ -43,6 +44,7 @@
         <ul id="material-list">
           <!-- template will be copied here -->
         </ul>
+        <svg fill="hsl(228, 97%, 42%)" viewBox="0 0 24 24" class="hidden" id="loader" xmlns="http://www.w3.org/2000/svg"><path d="M12,23a9.63,9.63,0,0,1-8-9.5,9.51,9.51,0,0,1,6.79-9.1A1.66,1.66,0,0,0,12,2.81h0a1.67,1.67,0,0,0-1.94-1.64A11,11,0,0,0,12,23Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg>
         <template id="material-template">
           <li>
             <h3 class="material-heading"></h3>
